@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(0,67,255);
+    background-image: url(imgs/madeira.jpg);
+    background-size:cover;
+    color: rgb(255, 255, 255);
+}
+
+.avatar {
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+/*
+CORPO E HEADER TEM QUE TER O MESMO WIDTH PRA CENTRALIZAR O CONTEÚDO
+*/
+.profile {
+    margin: 0 auto;
+    text-align: center;
+    /* POR NO <DIV> DO BODY
+    background-color: rgba(194, 89, 129, 0.699) ;
+    */
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+h2 {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.social{
+    padding:0;
+    list-style: none;
+    display: flex;
+     justify-content: space-around;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    padding: 0;
+    list-style: none;
+}
+
+.links-list li{
+    margin: 20px 20px;
+}
+
+.links-list li a{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 15px rgb(199, 199, 199) ;
+    padding: 25px 20px;
+    display: block;
+    border-radius: 10px;
+    background-color: rgba(83, 54, 30, 0.479);
+    color:rgb(255, 255, 255);
+    text-decoration:transparent;
+    
+}

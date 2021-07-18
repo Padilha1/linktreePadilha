@@ -12,6 +12,7 @@ body {
 
     background-image: url(imgs/rosa.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .avatar {

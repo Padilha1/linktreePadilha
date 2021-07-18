@@ -2,15 +2,12 @@
     padding:0 ;
     margin: 0;
 }
-html, body {
-    height: 100%;
-}
 
-body {
+body {  
     font-family: 'Raleway', sans-serif;
     color: rgb(255, 255, 255);
 
-    background-image: url(imgs/rosa.jpg);
+    background-image: url(imgs/sky2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -73,8 +70,14 @@ h2 {
     padding: 25px 20px;
     display: block;
     border-radius: 10px;
-    background-color: rgba(83, 54, 30, 0.479);
+    background-color: rgba(24, 18, 107, 0.2);
     color:rgb(255, 255, 255);
     text-decoration:transparent;
-    
+}
+
+
+@media screen and (min-height: 800px) {
+    body {
+        height: 100vh;
+    }
 }

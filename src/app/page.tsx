@@ -23,7 +23,7 @@ import { Card } from "./components/Card";
 
 const projects = [
   { name: "Website S4", url: "https://s4treinamentos.com.br" },
-  { name: "Crud com Qualidade", url: "https://crudcomqualidadep.vercel.app" },
+  { name: "NLW eSports", url: "https://nlw-ignite-esports.vercel.app" },
   {
     name: "Conversor de Moeda",
     url: "https://conversormoedapadilha.vercel.app",

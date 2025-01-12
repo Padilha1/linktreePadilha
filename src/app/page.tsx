@@ -6,21 +6,6 @@ import WhatsIcon from "@icon/Whatsapp.svg";
 import LinkedinIcon from "@icon/LinkedIn.svg";
 import { Card } from "./components/Card";
 
-/**
- * Matheus
- * Fullstack - Software Engineer
- * Stacks - Langs
- *
- *  Icones github - insta - linkedin
- *
- *  Projetos / Lista
- * website s4
- * algo do app
- * mais algum projet???
- * CV EN
- * CV PT
- */
-
 const projects = [
   { name: "Website S4", url: "https://s4treinamentos.com.br" },
   { name: "NLW eSports", url: "https://nlw-ignite-esports.vercel.app" },

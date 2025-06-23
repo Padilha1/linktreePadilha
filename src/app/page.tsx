@@ -13,9 +13,11 @@ const projects = [
     name: "Conversor de Moeda",
     url: "https://conversormoedapadilha.vercel.app",
   },
+  { name: "Mobile App S4 - Soon", url: "https://www.youtube.com/@S4Inspec" },
+  { name: "Anime Reccomendation", url: "https://anime-4-fun.vercel.app" },
+  { name: "Routini Appointment Web Software - Soon", url: "" },
   { name: "EN - CV", url: "./CurriculoEN.pdf" },
   { name: "PT - CV", url: "./CurriculoPT.pdf" },
-  { name: "App S4 - Em Breve", url: "https://www.youtube.com/@S4Inspec" },
 ];
 
 export default function Home() {
@@ -37,7 +39,7 @@ export default function Home() {
           </h2>
           <h3 className="text-md font-normal">
             {" "}
-            React.js | React Native | Node.js | MySQL
+            React Ecossystem | Typescript | Node.js | MySQL | Swift
           </h3>
         </div>
         <ThemeToggler />
@@ -85,7 +87,7 @@ export default function Home() {
       </main>
 
       <footer className=" mt-10 flex flex-wrap items-center justify-center">
-        <span> Site feito por Matheus Padilha ❤ </span>
+        <span> Made by Matheus Padilha ❤ </span>
       </footer>
     </div>
   );
